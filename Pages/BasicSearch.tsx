@@ -53,17 +53,14 @@ const BasicSearch = () => {
         <h2 style={{ marginTop: '10px', marginBottom: '50px' }}>
           Client Asset Access
         </h2>
-        {/* <div
-          className="row"
-          style={{ textAlign: 'right', textDecoration: 'none' }}
-        >
+        <div className="row" style={{ textAlign: 'right' }}>
           <a href="/AdvanceSearch">Advance Search</a>
-        </div> */}
+        </div>
         <div className="row">
           <div className="col-sm-12">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Basic Search</h5>
+                <h4 className="card-title">Basic Search</h4>
                 <br />
                 <div className="row">
                   <div className="col-sm-4">

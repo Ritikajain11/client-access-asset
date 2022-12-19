@@ -18,8 +18,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route element={<Home />} />
-          <Route element={<BasicSearch />} />
-          <Route index element={<AdvanceSearch />} />
+          <Route index element={<BasicSearch />} />
+          <Route element={<AdvanceSearch />} />
           <Route element={<Inventory />} />
           <Route exact path="/updateAsset/:id" element={<UpdateAsset />} />
           <Route path="*" element={<NoPage />} />
