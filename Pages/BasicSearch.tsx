@@ -57,13 +57,15 @@ const BasicSearch = () => {
           <a href="/AdvanceSearch">Advance Search</a>
         </div>
         <div className="row">
-          <div className="col-sm-12">
+          <div className="col-sm-3" />
+          <div className="col-sm-6">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Basic Search</h4>
                 <br />
                 <div className="row">
-                  <div className="col-sm-4">
+                  <div className="col-sm-1" />
+                  <div className="col-sm-5">
                     <Dropdown onChange={handleChange}>
                       <Dropdown.Toggle
                         variant="success"
@@ -91,27 +93,29 @@ const BasicSearch = () => {
                       </Dropdown.Menu>
                     </Dropdown>
                   </div>
-                  <div className="col-sm-8">
+                  <div className="col-sm-3">
                     <input id="input" />
                   </div>
+                  <div className="col-sm-3" />
                 </div>
                 <div className="row" style={{ marginTop: '40px' }}>
-                  <div className="col-sm-5" />
-                  <div className="col">
+                  <div className="col-sm-3" />
+                  <div className="col-sm-3">
                     <Button variant="secondary" onClick={() => reset()}>
                       Reset
-                    </Button>{' '}
+                    </Button>
                   </div>
-                  <div className="col">
+                  <div className="col-sm-3">
                     <Button variant="primary" onClick={() => submit()}>
                       Submit
-                    </Button>{' '}
+                    </Button>
                   </div>
-                  <div className="col-sm-5" />
+                  <div className="col-sm-3" />
                 </div>
               </div>
             </div>
           </div>
+          <div className="col-sm-3" />
         </div>
       </center>
       <br /> <br />
